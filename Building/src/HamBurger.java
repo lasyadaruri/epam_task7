@@ -1,0 +1,11 @@
+public abstract class HamBurger implements ItemType {
+
+   @Override
+   public Packing packing() {
+      return new Wrapper();
+   }
+
+   @Override
+   public abstract float price();
+}
+
